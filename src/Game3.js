@@ -2,15 +2,22 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MainPage from "./MainPage";
-import Game1 from "./Game1";
 import 'bootstrap/dist/css/bootstrap.css';
+import Iframe from 'react-iframe';
 
 class App extends Component {
+  
+  
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-        <MainPage/>
+      <div>
+        <header >
+        <div className="Banner">
+        Game 3
+          </div>
+          <div className="Main">
+          <iframe src="http://patorjk.com/games/snake/" width="540" height="450"></iframe>
+          </div>
         </header>
       </div>
     );
