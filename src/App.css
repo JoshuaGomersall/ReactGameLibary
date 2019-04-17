@@ -1,0 +1,67 @@
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: black;
+}
+
+.Banner{
+  Width : 90vw;
+  background-color: purple;
+  color : black;
+  font-size: 50px;
+  border-radius: 10px;
+  border: #000000;
+  border-style: solid;
+  font-family: adventure;
+  text-shadow: rgb(1, 200, 255) 4px 0 10px;
+}
+
+.Main{
+  width: 90vw;
+  border: #000000;
+  border-style: inset;
+  border-radius: 20px;
+  background-size: contain;
+  padding-bottom: 5vh;
+background: url(https://thumbor.mumu.agency/unsafe/1000x562/https://www.theransomnote.com/media/articles/an-idiots-guide-to-vaporwave/61a09b4d-32f1-47f7-ac94-be2e320c2ae1.jpg)
+}
+
+.flex{
+  display: flex;
+}
+
+.gamepanel{
+  background-color:rgba(113, 56, 219, 0.4);
+  margin : auto;
+  width: 30%;
+  border: #000000;
+  border-radius: 50px;
+  border-style: groove;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
