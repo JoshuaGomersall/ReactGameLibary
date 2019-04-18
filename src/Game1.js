@@ -17,7 +17,7 @@ class App extends Component {
           </div>
           <div className="Main">
           <br/>
-          <iframe src="https://www.crazygames.com/gameframe/doge-miner-2" width="1100" height="595"  marginwidth="0" marginheight="0" hspace="0" vspace="0"  frameborder="0" scrolling="no"  webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" allowfullscreen="true"></iframe>
+          <iframe src="https://www.crazygames.com/gameframe/doge-miner-2" width="80%" height="595"  marginwidth="0" marginheight="0" hspace="0" vspace="0"  frameborder="0" scrolling="no"  webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" allowfullscreen="true"></iframe>
           </div>
         </header>
       </div>

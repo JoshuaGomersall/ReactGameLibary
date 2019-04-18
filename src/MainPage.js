@@ -54,7 +54,7 @@ class App extends Component {
         <Route exact path="/game9" component={Game9} />
 
           <div className="Main">
-            <audio src={vapore} autoPlay/>
+            <audio src={vapore} loop autoPlay/>
             <br />
             <div className="flex">
               <div className="gamepanel">
