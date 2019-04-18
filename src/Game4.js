@@ -13,7 +13,7 @@ class App extends Component {
       <div>
         <header >
         <div className="Banner">
-        Game 4
+        Slither
           </div>
           <div className="Main">
           <br/>

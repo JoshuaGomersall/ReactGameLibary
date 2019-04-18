@@ -12,6 +12,8 @@ import GameIMG4 from "./Game4.PNG";
 import GameIMG5 from "./Game5.PNG";
 import GameIMG6 from "./Game6.PNG";
 import GameIMG7 from "./Game7.PNG";
+import GameIMG8 from "./Game8.PNG";
+import GameIMG9 from "./Game9.PNG";
 
 import Game1 from "./Game1.js";
 import Game2 from "./Game2.js";
@@ -48,13 +50,15 @@ class App extends Component {
         <Route exact path="/game5" component={Game5} />
         <Route exact path="/game6" component={Game6} />
         <Route exact path="/game7" component={Game7} />
+        <Route exact path="/game8" component={Game8} />
+        <Route exact path="/game9" component={Game9} />
 
           <div className="Main">
             <audio src={vapore} autoPlay/>
             <br />
             <div className="flex">
               <div className="gamepanel">
-                Game 1
+                Traffic Lights
               <br/>
                 <a href="game1">
                   <img src={GameIMG2} width="150" height="130" />
@@ -62,7 +66,7 @@ class App extends Component {
               </div>
 
               <div className="gamepanel">
-                Game 2
+              W4V3 V4P0R3
               <br />
               <a href="game2">
                   <img src={GameIMG1} width="150" height="130" />
@@ -70,7 +74,7 @@ class App extends Component {
               </div>
 
               <div className="gamepanel">
-                Game 3
+                Snake
               <br />
               <a href="Game3">
                   <img src={GameIMG3} alt="Trulli" width="150" height="130" />
@@ -80,7 +84,7 @@ class App extends Component {
 
             <div className="flex">
               <div className="gamepanel">
-                Game 4
+                Slither
               <br />
               <a href="Game4">
                   <img src={GameIMG4} width="150" height="130" />
@@ -88,7 +92,7 @@ class App extends Component {
               </div>
 
               <div className="gamepanel">
-                Game 5
+                Agario
               <br />
               <a href="Game5">
                   <img src={GameIMG5} alt="Trulli" width="150" height="130" />
@@ -96,7 +100,7 @@ class App extends Component {
               </div>
 
               <div className="gamepanel">
-                Game 6
+                Learn To Fly
               <br />
               <a href="Game6">
                   <img src={GameIMG6} alt="Trulli" width="150" height="130" />
@@ -106,7 +110,7 @@ class App extends Component {
 
             <div className="flex">
               <div className="gamepanel">
-                Game 7
+                Learn To Fly 3
               <br />
               <a href="Game7">
                   <img src={GameIMG7} alt="Trulli" width="150" height="130" />
@@ -114,18 +118,18 @@ class App extends Component {
               </div>
 
               <div className="gamepanel">
-                Game 8
+                Bullet Force
               <br />
               <a href="Game8">
-                  <img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/16/33/1280x960/sd-aspect-1471537670-es-081716-vaporwave.jpg?resize=768:*" alt="Trulli" width="150" height="130" />
+                  <img src={GameIMG8} alt="Trulli" width="150" height="130" />
                 </a>
               </div>
 
               <div className="gamepanel">
-                Game 9
+                Crazy Roll 3D
               <br />
               <a href="Game9">
-                  <img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/16/33/1280x960/sd-aspect-1471537670-es-081716-vaporwave.jpg?resize=768:*" alt="Trulli" width="150" height="130" />
+                  <img src={GameIMG9} alt="Trulli" width="150" height="130" />
                 </a>
               </div>
             </div>

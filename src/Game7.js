@@ -13,9 +13,10 @@ class App extends Component {
       <div>
         <header >
         <div className="Banner">
-        Game 7
+        Learn To Fly 3
           </div>
           <div className="Main">
+          <br/>
           <iframe src="https://www.crazygames.com/gameframe/learn-to-fly-3" width="720" height="585"  marginwidth="0" marginheight="0" hspace="0" vspace="0"  frameborder="0" scrolling="no"  webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" allowfullscreen="true"></iframe>
           </div>
         </header>
