@@ -13,10 +13,10 @@ class App extends Component {
       <div>
         <header >
         <div className="Banner">
-        Game 2
+        Game 7
           </div>
           <div className="Main">
-          <iframe src="https://iwant2study.org/lookangejss/02_newtonianmechanics_2kinematics/ejss_model_reactionTime/reactionTime_Simulation.xhtml" width="540" height="450"></iframe>
+          <iframe src="https://www.crazygames.com/gameframe/learn-to-fly-3" width="720" height="585"  marginwidth="0" marginheight="0" hspace="0" vspace="0"  frameborder="0" scrolling="no"  webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" allowfullscreen="true"></iframe>
           </div>
         </header>
       </div>
