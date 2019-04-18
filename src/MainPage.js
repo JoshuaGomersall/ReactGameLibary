@@ -58,7 +58,7 @@ class App extends Component {
             <br />
             <div className="flex">
               <div className="gamepanel">
-                Traffic Lights
+                Dog Miner 2
               <br/>
                 <a href="game1">
                   <img src={GameIMG2} width="150" height="130" />
