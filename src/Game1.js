@@ -16,7 +16,8 @@ class App extends Component {
         Game 1
           </div>
           <div className="Main">
-          <iframe src="https://iwant2study.org/lookangejss/02_newtonianmechanics_2kinematics/ejss_model_reactionTime/reactionTime_Simulation.xhtml" width="540" height="450"></iframe>
+          <br/>
+          <iframe src="https://iwant2study.org/lookangejss/02_newtonianmechanics_2kinematics/ejss_model_reactionTime/reactionTime_Simulation.xhtml" width="80%" height="450" ></iframe>
           </div>
         </header>
       </div>

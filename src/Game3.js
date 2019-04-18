@@ -16,7 +16,8 @@ class App extends Component {
         Game 3
           </div>
           <div className="Main">
-          <iframe src="http://patorjk.com/games/snake/" width="540" height="450"></iframe>
+          <br/>
+          <iframe src="http://patorjk.com/games/snake/" width="80%" height="450"></iframe>
           </div>
         </header>
       </div>

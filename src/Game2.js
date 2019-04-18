@@ -16,7 +16,8 @@ class App extends Component {
         Game 2
           </div>
           <div className="Main">
-          <iframe src="https://pmneila.github.io/jsexp/grayscott/" width="540" height="450"></iframe>
+          <br/>
+          <iframe src="https://pmneila.github.io/jsexp/grayscott/" width="80%" height="450"></iframe>
           </div>
         </header>
       </div>

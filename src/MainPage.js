@@ -7,6 +7,10 @@ import { BrowserRouter as Router, Route ,NavLink} from "react-router-dom";
 
 import GameIMG1 from "./Game1.PNG";
 import GameIMG2 from "./Game2.PNG";
+import GameIMG3 from "./Game3.PNG";
+import GameIMG4 from "./Game4.PNG";
+import GameIMG5 from "./Game5.PNG";
+//import GameIMG6 from "./Game6.PNG";
 
 import Game1 from "./Game1.js";
 import Game2 from "./Game2.js";
@@ -67,7 +71,7 @@ class App extends Component {
                 Game 3
               <br />
               <a href="Game3">
-                  <img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/16/33/1280x960/sd-aspect-1471537670-es-081716-vaporwave.jpg?resize=768:*" alt="Trulli" width="150" height="130" />
+                  <img src={GameIMG3} alt="Trulli" width="150" height="130" />
                 </a>
               </div>
             </div>
@@ -77,7 +81,7 @@ class App extends Component {
                 Game 4
               <br />
               <a href="Game4">
-                  <img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/16/33/1280x960/sd-aspect-1471537670-es-081716-vaporwave.jpg?resize=768:*" alt="Trulli" width="150" height="130" />
+                  <img src={GameIMG4} width="150" height="130" />
                 </a>
               </div>
 
@@ -85,7 +89,7 @@ class App extends Component {
                 Game 5
               <br />
               <a href="Game5">
-                  <img src="https://hips.hearstapps.com/esq.h-cdn.co/assets/16/33/1280x960/sd-aspect-1471537670-es-081716-vaporwave.jpg?resize=768:*" alt="Trulli" width="150" height="130" />
+                  <img src={GameIMG5} alt="Trulli" width="150" height="130" />
                 </a>
               </div>
 
