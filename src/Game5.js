@@ -13,11 +13,11 @@ class App extends Component {
       <div>
         <header >
         <div className="Banner">
-        Agario
+        Learn To Fly 2
           </div>
           <div className="Main">
           <br/>
-          <iframe src="https://agar.io/index.html#ffa" width="80%" height="450"></iframe>
+          <iframe src="https://www.crazygames.com/gameframe/learn-to-fly-2" width="640" height="525"  marginwidth="0" marginheight="0" hspace="0" vspace="0"  frameborder="0" scrolling="no"  webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" allowfullscreen="true"></iframe>
           </div>
         </header>
       </div>

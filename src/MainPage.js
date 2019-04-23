@@ -92,7 +92,7 @@ class App extends Component {
               </div>
 
               <div className="gamepanel">
-                Agario
+                Learn To Fly 2
               <br />
               <a href="Game5">
                   <img src={GameIMG5} alt="Trulli" width="150" height="130" />
