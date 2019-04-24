@@ -24,7 +24,7 @@ import Game6 from "./Game6.js";
 import Game7 from "./Game7.js";
 import Game8 from "./Game8.js";
 import Game9 from "./Game9.js";
-
+import Game10 from "./Game10.js";
 
 class App extends Component {
 
@@ -52,6 +52,7 @@ class App extends Component {
         <Route exact path="/game7" component={Game7} />
         <Route exact path="/game8" component={Game8} />
         <Route exact path="/game9" component={Game9} />
+        <Route exact path="/game10" component={Game10} />
 
           <div className="Main">
             <audio src={vapore} loop autoPlay/>
@@ -133,6 +134,33 @@ class App extends Component {
                 </a>
               </div>
             </div>
+
+            <div className="flex">
+              <div className="gamepanel">
+                Learn To Fly 3
+              <br />
+              <a href="Game10">
+                  <img src={GameIMG7} alt="Trulli" width="150" height="130" />
+                </a>
+              </div>
+
+              <div className="gamepanel">
+                Bullet Force
+              <br />
+              <a href="Game11">
+                  <img src={GameIMG8} alt="Trulli" width="150" height="130" />
+                </a>
+              </div>
+
+              <div className="gamepanel">
+                Crazy Roll 3D
+              <br />
+              <a href="Game12">
+                  <img src={GameIMG9} alt="Trulli" width="150" height="130" />
+                </a>
+              </div>
+            </div>
+
           </div>
         </header>
       </div>
