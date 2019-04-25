@@ -14,7 +14,7 @@ class Game extends Component {
           </div>
           <div className="Main">
           <br/>
-          <iframe src={this.props.url} width="80%" height="595"  marginwidth="0" marginheight="0" hspace="0" vspace="0"  frameborder="0" scrolling="no"  webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" allowfullscreen="true"></iframe>
+          <iframe src={this.props.url} width="80%" height="600px"  marginwidth="0" marginheight="0" hspace="0" vspace="0"  frameborder="0" scrolling="no"  webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true" allowfullscreen="true"></iframe>
           </div>
         </header>
       </div>
