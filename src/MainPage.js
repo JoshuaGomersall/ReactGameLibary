@@ -14,6 +14,7 @@ import GameIMG6 from "./Game6.PNG";
 import GameIMG7 from "./Game7.PNG";
 import GameIMG8 from "./Game8.PNG";
 import GameIMG9 from "./Game9.PNG";
+import GameIMG10 from "./Game10.PNG";
 
 import Game1 from "./Game1.js";
 import Game2 from "./Game2.js";
@@ -56,7 +57,6 @@ class App extends Component {
 
           <div className="Main">
             <audio src={vapore} loop autoPlay/>
-            <br />
             <div className="flex">
               <div className="gamepanel">
                 Dog Miner 2
@@ -137,10 +137,10 @@ class App extends Component {
 
             <div className="flex">
               <div className="gamepanel">
-                Learn To Fly 3
+                Bloons Tower Defence 5
               <br />
               <a href="Game10">
-                  <img src={GameIMG7} alt="Trulli" width="150" height="130" />
+                  <img src={GameIMG10} alt="Trulli" width="150" height="130" />
                 </a>
               </div>
 
