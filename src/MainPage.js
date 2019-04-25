@@ -1,20 +1,21 @@
 import React, { Component } from 'react';
 import './App.css';
 import vapore from "./vapore.mp3";
+import so from "./so.mp3";
 
 import { BrowserRouter as Router, Route ,NavLink} from "react-router-dom";
 
 
-import GameIMG1 from "./Game1.PNG";
-import GameIMG2 from "./Game2.PNG";
-import GameIMG3 from "./Game3.PNG";
-import GameIMG4 from "./Game4.PNG";
-import GameIMG5 from "./Game5.PNG";
-import GameIMG6 from "./Game6.PNG";
-import GameIMG7 from "./Game7.PNG";
-import GameIMG8 from "./Game8.PNG";
-import GameIMG9 from "./Game9.PNG";
-import GameIMG10 from "./Game10.PNG";
+import GameIMG1 from "./img/Game1.PNG";
+import GameIMG2 from "./img/Game2.PNG";
+import GameIMG3 from "./img/Game3.PNG";
+import GameIMG4 from "./img/Game4.PNG";
+import GameIMG5 from "./img/Game5.PNG";
+import GameIMG6 from "./img/Game6.PNG";
+import GameIMG7 from "./img/Game7.PNG";
+import GameIMG8 from "./img/Game8.PNG";
+import GameIMG9 from "./img/Game9.PNG";
+import GameIMG10 from "./img/Game10.PNG";
 
 import Game1 from "./Game1.js";
 import Game2 from "./Game2.js";
@@ -57,6 +58,7 @@ class App extends Component {
 
           <div className="Main">
             <audio src={vapore} loop autoPlay/>
+            <audio src={so} loop autoPlay/>
             <div className="flex">
               <div className="gamepanel">
                 Dog Miner 2
