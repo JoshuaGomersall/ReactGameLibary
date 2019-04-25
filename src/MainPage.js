@@ -3,8 +3,7 @@ import './App.css';
 import vapore from "./vapore.mp3";
 import so from "./so.mp3";
 
-import { BrowserRouter as Router, Route ,NavLink} from "react-router-dom";
-
+import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
 
 import GameIMG1 from "./img/Game1.PNG";
 import GameIMG2 from "./img/Game2.PNG";
@@ -17,155 +16,147 @@ import GameIMG8 from "./img/Game8.PNG";
 import GameIMG9 from "./img/Game9.PNG";
 import GameIMG10 from "./img/Game10.PNG";
 
-import Game1 from "./Game1.js";
-import Game2 from "./Game2.js";
-import Game3 from "./Game3.js";
-import Game4 from "./Game4.js";
-import Game5 from "./Game5.js";
-import Game6 from "./Game6.js";
-import Game7 from "./Game7.js";
-import Game8 from "./Game8.js";
-import Game9 from "./Game9.js";
-import Game10 from "./Game10.js";
+import Game from "./GameTemplate";
+
 
 class App extends Component {
 
   render() {
     return (
       <Router>
-      <div className="App">
-        <header className="App-header">
+        <div className="App">
+          <header className="App-header">
 
-          <div className="Banner">
-          <a href="/">
-            QAG
+            <div className="Banner">
+              <a href="/">
+                QAG
 <br />
-            Quality Assured Gaming
+                Quality Assured Gaming
             </a>
-</div>
-
-
-        <Route exact path="/game1" component={Game1} />
-        <Route exact path="/game2" component={Game2} />
-        <Route exact path="/game3" component={Game3} />
-        <Route exact path="/game4" component={Game4} />
-        <Route exact path="/game5" component={Game5} />
-        <Route exact path="/game6" component={Game6} />
-        <Route exact path="/game7" component={Game7} />
-        <Route exact path="/game8" component={Game8} />
-        <Route exact path="/game9" component={Game9} />
-        <Route exact path="/game10" component={Game10} />
-
-          <div className="Main">
-            <audio src={vapore} loop autoPlay/>
-            <audio src={so} loop autoPlay/>
-            <div className="flex">
-              <div className="gamepanel">
-                Dog Miner 2
-              <br/>
-                <a href="game1">
-                  <img src={GameIMG2} width="150" height="130" />
-                </a>
-              </div>
-
-              <div className="gamepanel">
-              W4V3 V4P0R3
-              <br />
-              <a href="game2">
-                  <img src={GameIMG1} width="150" height="130" />
-                </a>
-              </div>
-
-              <div className="gamepanel">
-                Snake
-              <br />
-              <a href="Game3">
-                  <img src={GameIMG3} alt="Trulli" width="150" height="130" />
-                </a>
-              </div>
             </div>
 
-            <div className="flex">
-              <div className="gamepanel">
-                Slither
+
+            <Route exact path="/game1" render={() => <Game name='Dog Miner 2' url='https://www.crazygames.com/gameframe/doge-miner-2' />} />
+            <Route exact path="/game2" render={() => <Game name='V4P3R W4V3' url='https://pmneila.github.io/jsexp/grayscott/' />} />
+            <Route exact path="/game3" render={() => <Game name='Snake' url='http://patorjk.com/games/snake/' />} />
+            <Route exact path="/game4" render={() => <Game name='Slither' url='http://slither.io/' />} />
+            <Route exact path="/game5" render={() => <Game name='Learn To Fly' url='https://www.crazygames.com/gameframe/learn-to-fly' />} />
+            <Route exact path="/game6" render={() => <Game name='Learn To Fly 2' url='https://www.crazygames.com/gameframe/learn-to-fly-2' />} />
+            <Route exact path="/game7" render={() => <Game name='Learn To Fly 3' url='https://www.crazygames.com/gameframe/learn-to-fly-3' />} />
+            <Route exact path="/game8" render={() => <Game name='Bullet Force' url='https://www.crazygames.com/gameframe/bullet-force-multiplayer' />} />
+            <Route exact path="/game9" render={() => <Game name='Crazy Roller 3D' url='https://www.crazygames.com/gameframe/crazy-roll-3d' />} />
+            <Route exact path="/game10" render={() => <Game name='Bloons Tower Defence 5' url='https://www.crazygames.com/gameframe/bloons-tower-defense-5'/>} />
+
+            <div className="Main">
+              <audio src={vapore} loop autoPlay />
+              <audio src={so} loop autoPlay />
+              <div className="flex">
+                <div className="gamepanel">
+                  Dog Miner 2
               <br />
-              <a href="Game4">
-                  <img src={GameIMG4} width="150" height="130" />
-                </a>
+                  <a href="game1">
+                    <img src={GameIMG2} width="150" height="130" />
+                  </a>
+                </div>
+
+                <div className="gamepanel">
+                  W4V3 V4P0R3
+              <br />
+                  <a href="game2">
+                    <img src={GameIMG1} width="150" height="130" />
+                  </a>
+                </div>
+
+                <div className="gamepanel">
+                  Snake
+              <br />
+                  <a href="Game3">
+                    <img src={GameIMG3} alt="Trulli" width="150" height="130" />
+                  </a>
+                </div>
               </div>
 
-              <div className="gamepanel">
-                Learn To Fly 2
+              <div className="flex">
+                <div className="gamepanel">
+                  Slither
               <br />
-              <a href="Game5">
-                  <img src={GameIMG5} alt="Trulli" width="150" height="130" />
-                </a>
+                  <a href="Game4">
+                    <img src={GameIMG4} width="150" height="130" />
+                  </a>
+                </div>
+
+                <div className="gamepanel">
+                  Learn To Fly
+              <br />
+                  <a href="Game5">
+                    <img src={GameIMG6} alt="Trulli" width="150" height="130" />
+                  </a>
+                </div>
+
+                <div className="gamepanel">
+                  Learn To Fly 2
+              <br />
+                  <a href="Game6">
+                    <img src={GameIMG5} alt="Trulli" width="150" height="130" />
+                  </a>
+                </div>
               </div>
 
-              <div className="gamepanel">
-                Learn To Fly
+              <div className="flex">
+                <div className="gamepanel">
+                  Learn To Fly 3
               <br />
-              <a href="Game6">
-                  <img src={GameIMG6} alt="Trulli" width="150" height="130" />
-                </a>
+                  <a href="Game7">
+                    <img src={GameIMG7} alt="Trulli" width="150" height="130" />
+                  </a>
+                </div>
+
+                <div className="gamepanel">
+                  Bullet Force
+              <br />
+                  <a href="Game8">
+                    <img src={GameIMG8} alt="Trulli" width="150" height="130" />
+                  </a>
+                </div>
+
+                <div className="gamepanel">
+                  Crazy Roll 3D
+              <br />
+                  <a href="Game9">
+                    <img src={GameIMG9} alt="Trulli" width="150" height="130" />
+                  </a>
+                </div>
               </div>
+
+              <div className="flex">
+                <div className="gamepanel">
+                  Bloons Tower Defence 5
+              <br />
+                  <a href="Game10">
+                    <img src={GameIMG10} alt="Trulli" width="150" height="130" />
+                  </a>
+                </div>
+
+                <div className="gamepanel">
+                  Bullet Force
+              <br />
+                  <a href="Game11">
+                    <img src={GameIMG8} alt="Trulli" width="150" height="130" />
+                  </a>
+                </div>
+
+                <div className="gamepanel">
+                  Crazy Roll 3D
+              <br />
+                  <a href="Game12">
+                    <img src={GameIMG9} alt="Trulli" width="150" height="130" />
+                  </a>
+                </div>
+              </div>
+
             </div>
-
-            <div className="flex">
-              <div className="gamepanel">
-                Learn To Fly 3
-              <br />
-              <a href="Game7">
-                  <img src={GameIMG7} alt="Trulli" width="150" height="130" />
-                </a>
-              </div>
-
-              <div className="gamepanel">
-                Bullet Force
-              <br />
-              <a href="Game8">
-                  <img src={GameIMG8} alt="Trulli" width="150" height="130" />
-                </a>
-              </div>
-
-              <div className="gamepanel">
-                Crazy Roll 3D
-              <br />
-              <a href="Game9">
-                  <img src={GameIMG9} alt="Trulli" width="150" height="130" />
-                </a>
-              </div>
-            </div>
-
-            <div className="flex">
-              <div className="gamepanel">
-                Bloons Tower Defence 5
-              <br />
-              <a href="Game10">
-                  <img src={GameIMG10} alt="Trulli" width="150" height="130" />
-                </a>
-              </div>
-
-              <div className="gamepanel">
-                Bullet Force
-              <br />
-              <a href="Game11">
-                  <img src={GameIMG8} alt="Trulli" width="150" height="130" />
-                </a>
-              </div>
-
-              <div className="gamepanel">
-                Crazy Roll 3D
-              <br />
-              <a href="Game12">
-                  <img src={GameIMG9} alt="Trulli" width="150" height="130" />
-                </a>
-              </div>
-            </div>
-
-          </div>
-        </header>
-      </div>
+          </header>
+        </div>
       </Router>
     );
   }
