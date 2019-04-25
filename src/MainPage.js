@@ -18,6 +18,8 @@ import GameIMG10 from "./img/Game10.PNG";
 import GameIMG11 from "./img/Game11.PNG";
 import GameIMG12 from "./img/Game12.PNG";
 import GameIMG13 from "./img/Game13.PNG";
+import GameIMG14 from "./img/Game14.PNG";
+import GameIMG15 from "./img/Game15.PNG";
 
 import Game from "./GameTemplate";
 
@@ -52,6 +54,11 @@ class App extends Component {
             <Route exact path="/game11" render={() => <Game name='RoofTop Snipers' url='https://www.crazygames.com/gameframe/rooftop-snipers' />} />
             <Route exact path="/game12" render={() => <Game name='Air War 2' url='https://www.crazygames.com/gameframe/air-wars-2' />} />
             <Route exact path="/game13" render={() => <Game name='Chess' url='https://www.crazygames.com/gameframe/sparkchess' />} />
+            <Route exact path="/game14" render={() => <Game name='Impossible Quiz' url='https://www.crazygames.com/gameframe/the-impossible-quiz' />} />
+            <Route exact path="/game15" render={() => <Game name='SnowBall' url='https://www.crazygames.com/gameframe/snowball-io' />} />
+
+            
+
 
             <div className="Main">
               <audio src={vapore} loop autoPlay />
@@ -170,18 +177,18 @@ class App extends Component {
                 </div>
 
                 <div className="gamepanel">
-                  RoofTop snipers
+                  Impossible Quiz
               <br />
                   <a href="Game14">
-                    <img src={GameIMG11} alt="Trulli" width="150" height="130" />
+                    <img src={GameIMG14} alt="Trulli" width="150" height="130" />
                   </a>
                 </div>
 
                 <div className="gamepanel">
-                  Air War 2
+                  Snow Ball
               <br />
                   <a href="Game15">
-                    <img src={GameIMG12} alt="Trulli" width="150" height="130" />
+                    <img src={GameIMG15} alt="Trulli" width="150" height="130" />
                   </a>
                 </div>
               </div>
